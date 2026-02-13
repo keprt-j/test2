@@ -4,9 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
-    // For GitHub Pages: set base to your repo name, e.g. '/proj1/' or '/my-game/'
-    // For a user/org site at username.github.io use base: '/'
-    base: '/proj1/',
+    // GitHub Pages: https://keprt-j.github.io/feb142026/
+    base: '/feb142026/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
