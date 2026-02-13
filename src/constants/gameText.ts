@@ -1,0 +1,53 @@
+// Easy-to-edit text content for the game
+export const GAME_TEXT = {
+  // Home Page
+  home: {
+    beforeQuestion1: "hello jules",
+    beforeQuestion2: "really hoping this doesnt break",
+    question: "will you be my valentine?",
+  },
+
+  // First Yes Page (when yes is clicked first)
+  firstYes: {
+    title: "wait that was it",
+    subtitle1: "that was hella easy",
+    subtitle2: "but you know what...",
+    subtitle3: "try clicking no theres like some stuff there",
+    buttonText: "Go Back",
+  },
+
+  // Change Mind Pages (after clicking No)
+  changeMind: {
+    firstNo: {
+      title: "ok damn that was rude",
+      subtitle: "",
+    },
+    secondNo: {
+      title: "alright you got one more chance",
+      subtitle: "i will leak ss",
+    },
+    thirdNo: {
+      title: "lowkey if you see this page idk how",
+      subtitle: "like i removed this in development",
+      emoji: "🥺",
+    },
+  },
+
+  // True Success Page (yes after clicking no)
+  trueSuccess: {
+    title: "NOW we're talking!",
+    subtitle1: "You came back and chose friendship!",
+    subtitle2: "The journey matters more than the destination.",
+    subtitle3: "Thank you for being persistent! 💖",
+  },
+
+  // Video Page
+  video: {
+    title: "this is a threat",
+    placeholder: "Video to be inserted here",
+    placeholderSubtext: "(Placeholder for your video content)",
+    subtitle: "did i get the message across",
+    buttonText: "Go Back",
+    hint: "try clicking \"No\" again idk if the random animation worked",
+  },
+};
