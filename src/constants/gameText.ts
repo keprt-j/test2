@@ -23,8 +23,8 @@ export const GAME_TEXT = {
       subtitle: "",
     },
     secondNo: {
-      title: "alright you got one more chance",
-      subtitle: "i will leak ss",
+      title: "this is what you wanted tf",
+      subtitle: "i will leak ss istg",
     },
     thirdNo: {
       title: "lowkey if you see this page idk how",
@@ -37,11 +37,12 @@ export const GAME_TEXT = {
   trueSuccess: {
     title: "eyyyyyyy",
     subtitle1: "w",
+    subtitle2: "happy valentines day"
   },
 
   // Video Page
   video: {
-    title: "this is a threat",
+    title: "ok this is a threat",
     placeholder: "Video to be inserted here",
     placeholderSubtext: "(Placeholder for your video content)",
     subtitle: "did i get the message across",
