@@ -35,10 +35,8 @@ export const GAME_TEXT = {
 
   // True Success Page (yes after clicking no)
   trueSuccess: {
-    title: "NOW we're talking!",
-    subtitle1: "You came back and chose friendship!",
-    subtitle2: "The journey matters more than the destination.",
-    subtitle3: "Thank you for being persistent! 💖",
+    title: "eyyyyyyy",
+    subtitle1: "w",
   },
 
   // Video Page
