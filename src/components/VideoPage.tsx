@@ -13,14 +13,13 @@ export function VideoPage({ onGoBack }: VideoPageProps) {
         </h1>
 
         <div className="bg-black/50 backdrop-blur-sm rounded-3xl p-8 mb-8">
-          <div className="aspect-video bg-gray-800 rounded-2xl flex items-center justify-center mb-4">
-            <div className="text-center">
-              <p className="text-white text-2xl mb-4">📹</p>
-              <p className="text-white text-xl">{GAME_TEXT.video.placeholder}</p>
-              <p className="text-gray-400 text-sm mt-2">
-                {GAME_TEXT.video.placeholderSubtext}
-              </p>
-            </div>
+          <div className="aspect-video bg-gray-800 rounded-2xl overflow-hidden mb-4">
+            <video
+              className="w-full h-full object-contain"
+              src={`${import.meta.env.BASE_URL}whiteboard.mp4`}
+              controls
+              playsInline
+            />
           </div>
           
           <p className="text-white text-lg opacity-90">
