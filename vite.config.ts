@@ -4,8 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
-    // GitHub Pages: https://keprt-j.github.io/feb142026/
-    base: '/feb142026/',
+    // GitHub Pages: https://keprt-j.github.io/test2/
+    base: '/test2/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
